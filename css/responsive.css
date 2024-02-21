@@ -1,0 +1,823 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/* Header <===========================================================================> */
+	header{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.hamburgerMenuForPhone{
+		display: inline-block;
+	}
+	nav{
+		position: absolute;
+		left: 0;
+		top: 100px;
+		background: #F3585B;
+		width: 100%;
+		overflow: hidden;
+		transition: .3s;
+		height: 0;
+	}
+	.headerUl{
+		flex-direction: column;
+		text-align: center;
+	}
+	.headerUlWords{
+		width: 100%;
+		padding: 10px;
+		margin: 0;
+		transition: .3s;
+	}
+	.headerUlWords:hover{
+		background: #fff;
+	}
+/* Header <===========================================================================> */
+
+/* MainSlider <========================================================================>*/
+	.buttonStyle {
+		padding: 5px 15px;
+		font-size: 10px;
+	}
+	.buttonStyleToo {
+		padding: 7px 20px;
+		font-size: 11px;
+	}
+	.mainSliderControl{
+		display: none;
+	}
+	.mainSliderItemSlideFourVideo{
+		top: 15%;
+	}
+	.mainSliderItemSlideTwo p , .mainSliderItemSlideThree p , .mainSliderItemSlideOne p , .mainSliderItemSlideFourCont p , .mainSliderItemSlideFive p{
+		width: 80%;
+		margin: 10px auto;
+	}
+	.mainSliderItemSlideOne h1 , .mainSliderItemSlideTwo h1 , .mainSliderItemSlideThree h1 , .mainSliderItemSlideFour h1 , .mainSliderItemSlideFive h1{
+		font-size: 15px;
+	}
+	.mainSliderItemSlideOne p , .mainSliderItemSlideTwo p , .mainSliderItemSlideThree p , .mainSliderItemSlideFour p , .mainSliderItemSlideFive p{
+		font-size: 11px;
+	}
+	.mainSliderItemSlideFourCont{
+		padding: 150px 0;
+	}
+	.mainSliderItemSlideTwoImgBlock , .mainSliderItemSlideThreeImgBlock{
+		display: none;
+	}
+	.mainSliderItemSlideTwo , .mainSliderItemSlideThree{
+		padding-top: 140px;
+	}
+	.buttonBlock{
+		flex-direction: column;
+	}
+	.mainSliderItemSlideTwoItem , .mainSliderItemSlideThreeItem{
+		justify-content: center;
+	}
+/* MainSlider <========================================================================>*/
+
+/* MainLogo <==========================================================================>*/
+	.mainLogoItem{
+		flex-direction: column;
+	}
+	.mainLogoImg{
+		width: 270px;
+		margin-top: 20px;
+	}
+	.mainLogo{
+		padding-top: 50px;
+	}
+	.mainLogo h1{
+		font-size: 26px;
+	}
+	.mainLogo p{
+		font-size: 13px;
+	}
+	.mainLogoCont {
+		width: 100%;
+	}
+/* MainLogo <==========================================================================>*/
+
+/* MainWork <===============================================================================>*/
+	.mainWorkItemBoxIconBlock{
+		order: 1;
+	}
+	.mainWorkItemBoxTextArea{
+		order: 2;
+	}
+	.mainWorkItemBoxInfo{
+		display: none;
+	}
+	.mainWorkItemBox:nth-child(2), .mainWorkItemBox:nth-child(4){
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+	}
+	.mainWorkItemBox:nth-child(6){
+		justify-content: flex-start;
+	}
+	.mainWorkItemBoxTextArea:nth-child(1):after, .mainWorkItemBoxTextArea:nth-child(3):after, .mainWorkItemBoxTextArea:nth-child(5):before{
+		top: 30px;
+		left: -14px;
+		transform: rotate(-90deg);
+	}
+	.mainWorkItemBoxTextAreaTitle, .mainWorkItemBoxTextAreaReverseTitle{
+		font-size: 14px;
+	}
+	.mainWorkItemBoxTextAreaTitleItem, .mainWorkItemBoxTextAreaReverseTitleItem{
+		font-size: 11px;
+	}
+	.mainWorkItemBoxTextAreaCont, .mainWorkItemBoxTextAreaReverseCont{
+		font-size: 11px;
+		margin-top: 10px;
+	}
+	.mainWorkItemBoxTextArea, .mainWorkItemBoxTextAreaReverse{
+		width: 77%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 10px;
+	}
+	.mainWorkItemBoxIcon{
+		width: 55px;
+		height: 55px;
+	}
+	.mainWorkItemBoxIcon i {
+		font-size: 17px;
+	}
+	.mainWorkItemBoxIconBlock , .mainWorkItemBoxIconBlockLast{
+		width: 30%;
+		display: flex;
+		justify-content: center;
+	}
+	.mainWorkItemBoxIcon{
+		margin: 0;
+	}
+	.mainWorkTitle h1{
+		font-size: 22px;
+	}
+	.mainWorkTitle p{
+		font-size: 13px;
+	}
+/* MainWork <===============================================================================>*/
+
+/* Main Numbers <============================================================================>*/
+	.mainNumbersBox{
+		font-size: 14px;
+		margin: 10px;
+		width: 200px;
+	}
+	.mainNumbersBox i{
+		font-size: 30px;
+	}
+	.mainNumbersNum{
+		font-size: 30px;
+	}
+	.mainNumbersItem{
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+/* Main Numbers <============================================================================>*/
+
+/* Easy Pie Chart<============================================================================>*/
+	.easyPieChartItemList{
+		flex-direction: column;
+	}
+/* Easy Pie Chart<============================================================================>*/
+
+/* Portfolio<============================================================================>*/
+	.filter-container{
+		justify-content: center;
+	}
+	.filtr-item{
+		width: 265px !important;
+	}
+/* Portfolio<============================================================================>*/
+
+/* Services <============================================================================> */
+	.mainServicesItem{
+		flex-direction: column;
+	}
+	.mainServicesItemBlock{
+		margin: 10px;
+	}
+	.mainServicesItemBlockIcon i{
+		color: rgba(0, 0, 0, 0.4);
+		font-size: 70px;
+		margin-bottom: 7px;
+	}
+/* Services <============================================================================> */
+
+/* Pricing <============================================================================> */
+	.mainPricingItem {
+		flex-direction: column;
+	}
+	.mainPricingBox {
+		width: 100%;
+		margin: 10px;
+	}
+	.mainPricingBoxTitle{
+		width: 100%;
+		padding: 20px 0;
+		text-align: center;
+	}
+	.mainPricingBoxTitle{
+		font-size: 15px;
+	}
+	.mainPricingBoxPrice{
+		font-size: 30px;
+	}
+/* Pricing <============================================================================> */
+
+/* TestImonials<============================================================================> */
+	.mainTestImonialsItemBoxContText {
+		font-size: 14px;
+		line-height: 24px;
+		width: 60%;
+	}
+	.mainTestImonialsItemBoxImg {
+		width: 100px;
+		height: 100px;
+	}
+	.mainTestImonialsItemBoxContFooter{
+		font-size: 13px;
+	}
+/* TestImonials<============================================================================> */
+
+/* Main Brands <============================================================================> */
+	.mainBrands{
+		padding: 30px 0;
+	}
+	.mainBrandsItem{
+		flex-direction: column;
+	}
+/* Main Brands <============================================================================> */
+
+/* Main Footer <============================================================================> */
+	.mainFooterItem{
+		flex-direction: column;
+	}
+	.mainFooterItemInputsNames{
+		flex-direction: column;
+		margin-top: 30px;
+	}
+	.mainFooterItemInputsStyleToo{
+		width: 100%;
+	}
+/* Main Footer <============================================================================> */
+
+/* Footer <============================================================================> */
+	.footerBottom p{
+		font-size: 13px;
+	}
+/* Footer <============================================================================> */
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.container{
+		max-width: 540px;
+	}
+/* Header <===========================================================================> */
+	header{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.hamburgerMenuForPhone{
+		display: inline-block;
+	}
+	nav{
+		position: absolute;
+		left: 0;
+		top: 100px;
+		background: #F3585B;
+		width: 100%;
+		overflow: hidden;
+		transition: .3s;
+		height: 0;
+	}
+	.headerUl{
+		flex-direction: column;
+		text-align: center;
+	}
+	.headerUlWords{
+		width: 100%;
+		padding: 10px;
+		margin: 0;
+		transition: .3s;
+	}
+	.headerUlWords:hover{
+		background: #fff;
+	}
+
+/* Header <===========================================================================> */
+
+/* MainSlider <========================================================================>*/
+	.buttonStyle {
+		padding: 5px 15px;
+		font-size: 11px;
+	}
+	.buttonStyleToo {
+		padding: 7px 20px;
+		font-size: 11px;
+	}
+	.mainSliderControl{
+		display: none;
+	}
+	.mainSliderItemSlideFourVideo{
+		top: 0px;
+	}
+	.mainSliderItemSlideTwo p , .mainSliderItemSlideThree p{
+		width: 100%;
+	}
+	.mainSliderItemSlideOne h1 , .mainSliderItemSlideTwo h1 , .mainSliderItemSlideThree h1 , .mainSliderItemSlideFour h1 , .mainSliderItemSlideFive h1{
+		font-size: 23px;
+	}
+	.mainSliderItemSlideOne p , .mainSliderItemSlideTwo p , .mainSliderItemSlideThree p , .mainSliderItemSlideFour p , .mainSliderItemSlideFive p{
+		font-size: 13px;
+	}
+	.mainSliderItemSlideFourCont{
+		padding: 150px 0;
+	}
+	.mainSliderItemSlideTwoImgBlock , .mainSliderItemSlideThreeImgBlock{
+		display: none;
+	}
+	.mainSliderItemSlideTwo , .mainSliderItemSlideThree{
+		padding-top: 140px;
+	}
+	.mainSliderItemSlideTwoItem , .mainSliderItemSlideThreeItem{
+		justify-content: center;
+	}
+/* MainSlider <========================================================================>*/
+
+/* MainLogo <==========================================================================>*/
+	.mainLogoItem{
+		flex-direction: column;
+	}
+	.mainLogoImg{
+		width: 400px;
+		margin-top: 20px;
+	}
+	.mainLogoCont {
+		width: 100%;
+	}
+/* MainLogo <==========================================================================>*/
+
+/* MainWork <===============================================================================>*/
+	.mainWorkItemBoxIconBlock{
+		order: 1;
+	}
+	.mainWorkItemBoxTextArea{
+		order: 2;
+	}
+	.mainWorkItemBoxInfo{
+		display: none;
+	}
+	.mainWorkItemBox:nth-child(2), .mainWorkItemBox:nth-child(4){
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+	}
+	.mainWorkItemBox:nth-child(6){
+		justify-content: flex-start;
+	}
+	.mainWorkItemBoxTextArea:nth-child(1):after, .mainWorkItemBoxTextArea:nth-child(3):after, .mainWorkItemBoxTextArea:nth-child(5):before{
+		top: 30px;
+		left: -14px;
+		transform: rotate(-90deg);
+	}
+	.mainWorkItemBoxTextAreaTitle, .mainWorkItemBoxTextAreaReverseTitle{
+		font-size: 16px;
+	}
+	.mainWorkItemBoxTextAreaTitleItem, .mainWorkItemBoxTextAreaReverseTitleItem{
+		font-size: 12px;
+	}
+	.mainWorkItemBoxTextAreaCont, .mainWorkItemBoxTextAreaReverseCont{
+		font-size: 12px;
+	}
+	.mainWorkItemBoxTextArea, .mainWorkItemBoxTextAreaReverse{
+		width: 77%;
+	}
+	.mainWorkItemBoxIcon{
+		width: 55px;
+		height: 55px;
+	}
+	.mainWorkItemBoxIcon i {
+		font-size: 17px;
+  }
+	.mainWorkTitle h1{
+		font-size: 26px;
+	}
+	.mainWorkTitle p{
+		font-size: 13px;
+	}
+/* MainWork <===============================================================================>*/
+
+/* Main Numbers <============================================================================>*/
+	.mainNumbersBox{
+		font-size: 11px;
+	}
+	.mainNumbersBox i{
+		font-size: 30px;
+	}
+	.mainNumbersNum{
+		font-size: 30px;
+	}
+/* Main Numbers <============================================================================>*/
+
+/* Easy Pie Chart<============================================================================>*/
+	.easyPieChartItemList{
+		flex-direction: column;
+	}
+/* Easy Pie Chart<============================================================================>*/
+
+/* Portfolio<============================================================================>*/
+	.filter-container{
+		justify-content: center;
+	}
+/* Portfolio<============================================================================>*/
+
+/* Services <============================================================================> */
+	.mainServicesItem{
+		flex-direction: column;
+	}
+	.mainServicesItemBlock{
+		margin: 10px;
+	}
+	.mainServicesItemBlockIcon i{
+		color: rgba(0, 0, 0, 0.4);
+		font-size: 70px;
+		margin-bottom: 7px;
+	}
+/* Services <============================================================================> */
+
+/* Pricing <============================================================================> */
+	.mainPricingItem {
+		flex-direction: column;
+	}
+	.mainPricingBox {
+		width: 100%;
+		margin: 10px;
+	}
+	.mainPricingBoxTitle{
+		width: 100%;
+		padding: 20px 0;
+		text-align: center;
+	}
+/* Pricing <============================================================================> */
+
+/* TestImonials<============================================================================> */
+	.mainTestImonialsItemBoxContText {
+		font-size: 14px;
+		line-height: 24px;
+		width: 60%;
+	}
+	.mainTestImonialsItemBoxImg {
+		width: 100px;
+		height: 100px;
+	}
+	.mainTestImonialsItemBoxContFooter{
+		font-size: 13px;
+	}
+/* TestImonials<============================================================================> */
+
+/* Main Brands <============================================================================> */
+	.mainBrands{
+		padding: 30px 0;
+	}
+	.mainBrandsItem{
+		flex-direction: column;
+	}
+/* Main Brands <============================================================================> */
+
+/* Main Footer <============================================================================> */
+	.mainFooterItem{
+		flex-direction: column;
+	}
+	.mainFooterItemInputsNames{
+		flex-direction: column;
+		margin-top: 30px;
+	}
+	.mainFooterItemInputsStyleToo{
+		width: 100%;
+	}
+/* Main Footer <============================================================================> */
+
+/* Footer <============================================================================> */
+	.footerBottom p{
+		font-size: 14px;
+	}
+/* Footer <============================================================================> */
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.container {
+		max-width: 720px;
+	}
+/* Header <===========================================================================> */
+	header{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.hamburgerMenuForPhone{
+		display: inline-block;
+	}
+	nav{
+		position: absolute;
+		left: 0;
+		top: 100px;
+		background: #F3585B;
+		width: 100%;
+		overflow: hidden;
+		transition: .3s;
+		height: 0;
+	}
+	.headerUl{
+		flex-direction: column;
+		text-align: center;
+	}
+	.headerUlWords{
+		width: 100%;
+		padding: 10px;
+		margin: 0;
+		transition: .3s;
+	}
+	.headerUlWords:hover{
+		background: #fff;
+	}
+
+/* Header <===========================================================================> */
+
+/* MainSlider <========================================================================>*/
+	.buttonStyle {
+		padding: 7px 20px;
+		font-size: 11px;
+	}
+	.buttonStyleToo {
+		padding: 7px 20px;
+		font-size: 11px;
+	}
+	.mainSliderControl{
+		height: 80px;
+	}
+	.mainSliderControlBox{
+		width: 100px;
+	}
+	.mainSliderControlBox p{
+		font-size: 12px;
+	}
+	.mainSliderItemSlideThree , .mainSliderItemSlideTwo{
+		padding-top: 100px;
+	}
+	.mainSliderItemSlideFourCont {
+		padding: 150px 0;
+	}
+	.mainSliderItemSlideFourVideo{
+		top: -70px;
+	}
+	.mainSliderItemSlideOne h1 , .mainSliderItemSlideTwo h1 , .mainSliderItemSlideThree h1 , .mainSliderItemSlideFour h1 , .mainSliderItemSlideFive h1{
+		font-size: 25px;
+	}
+	.mainSliderItemSlideOne p , .mainSliderItemSlideTwo p , .mainSliderItemSlideThree p , .mainSliderItemSlideFour p , .mainSliderItemSlideFive p{
+		font-size: 15px;
+	}
+/* MainSlider <========================================================================>*/
+
+/* MainLogo <==========================================================================>*/
+	.mainLogoItem{
+		flex-direction: column;
+	}
+	.mainLogoImg{
+		width: 400px;
+		margin-top: 20px;
+	}
+	.mainLogoCont {
+		width: 100%;
+	}
+/* MainLogo <==========================================================================>*/
+
+/* MainWork <===============================================================================>*/
+	.mainWorkItemBoxIconBlock{
+		order: 1;
+	}
+	.mainWorkItemBoxTextArea{
+		order: 2;
+	}
+	.mainWorkItemBoxInfo{
+		display: none;
+	}
+	.mainWorkItemBox:nth-child(2), .mainWorkItemBox:nth-child(4){
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+	}
+	.mainWorkItemBox:nth-child(6){
+		justify-content: flex-start;
+	}
+	.mainWorkItemBoxTextArea:nth-child(1):after, .mainWorkItemBoxTextArea:nth-child(3):after, .mainWorkItemBoxTextArea:nth-child(5):before{
+		top: 30px;
+		left: -14px;
+		transform: rotate(-90deg);
+	}
+	.mainWorkItemBoxTextAreaTitle, .mainWorkItemBoxTextAreaReverseTitle{
+		font-size: 16px;
+	}
+	.mainWorkItemBoxTextAreaTitleItem, .mainWorkItemBoxTextAreaReverseTitleItem{
+		font-size: 12px;
+	}
+	.mainWorkItemBoxTextAreaCont, .mainWorkItemBoxTextAreaReverseCont{
+		font-size: 12px;
+	}
+	.mainWorkItemBoxTextArea, .mainWorkItemBoxTextAreaReverse{
+		width: 77%;
+	}
+	.mainWorkTitle h1{
+		font-size: 27px;
+	}
+	.mainWorkTitle p{
+		font-size: 15px;
+	}
+/* MainWork <===============================================================================>*/
+
+/* Main Numbers <============================================================================>*/
+	.mainNumbersBox{
+		font-size: 11px;
+	}
+	.mainNumbersBox i{
+		font-size: 30px;
+	}
+	.mainNumbersNum{
+		font-size: 30px;
+	}
+/* Main Numbers <============================================================================>*/
+
+/* Easy Pie Chart<============================================================================>*/
+	.easyPieChartItemList{
+		flex-direction: column;
+	}
+/* Easy Pie Chart<============================================================================>*/
+
+/* Portfolio<============================================================================>*/
+	.filter-container{
+		justify-content: center;
+	}
+/* Portfolio<============================================================================>*/
+
+/* Services <============================================================================> */
+.mainServicesItem{
+	flex-direction: column;
+}
+.mainServicesItemBlock{
+	margin: 10px;
+}
+.mainServicesItemBlockIcon i{
+	color: rgba(0, 0, 0, 0.4);
+	font-size: 70px;
+	margin-bottom: 7px;
+}
+/* Services <============================================================================> */
+
+/* Pricing <============================================================================> */
+	.mainPricingItem {
+		flex-direction: column;
+	}
+	.mainPricingBox {
+		width: 100%;
+		margin: 10px;
+	}
+	.mainPricingBoxTitle{
+		width: 100%;
+		padding: 20px 0;
+		text-align: center;
+	}
+/* Pricing <============================================================================> */
+
+/* TestImonials<============================================================================> */
+	.mainTestImonialsItemBoxContText {
+		font-size: 14px;
+		line-height: 24px;
+		width: 60%;
+	}
+	.mainTestImonialsItemBoxImg {
+		width: 100px;
+		height: 100px;
+  }
+	.mainTestImonialsItemBoxContFooter{
+		font-size: 13px;
+	}
+/* TestImonials<============================================================================> */
+
+/* Main Footer <============================================================================> */
+	.mainFooterItem{
+		flex-direction: column;
+	}
+	.mainFooterItemInputsNames{
+		flex-direction: column;
+		margin-top: 30px;
+	}
+	.mainFooterItemInputsStyleToo{
+		width: 100%;
+	}
+/* Main Footer <============================================================================> */
+
+/* Footer <============================================================================> */
+	.footerBottom p{
+		font-size: 14px;
+	}
+/* Footer <============================================================================> */
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.container {
+		max-width: 960px;
+	}
+/* Header <===========================================================================> */
+	.headerUlWords a{
+		font-weight: 500;
+	}
+/* Header <===========================================================================> */
+
+/* MainSlider <==========================================================================>*/
+	.mainSliderControl{
+		height: 80px;
+	}
+	.mainSliderControlBox{
+		width: 100px;
+	}
+	.mainSliderControlBox p{
+		font-size: 12px;
+	}
+	.mainSliderItemSlideFourCont{
+		padding: 150px 0;
+	}
+/* MainSlider <==========================================================================>*/
+
+/* MainWork <===============================================================================>*/
+	.mainWorkItemBoxIconBlock{
+		order: 1;
+	}
+	.mainWorkItemBoxTextArea{
+		order: 2;
+	}
+	.mainWorkItemBoxInfo{
+		display: none;
+	}
+	.mainWorkItemBox:nth-child(2), .mainWorkItemBox:nth-child(4){
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+	}
+	.mainWorkItemBox:nth-child(6){
+		justify-content: flex-start;
+	}
+	.mainWorkItemBoxTextArea:nth-child(1):after, .mainWorkItemBoxTextArea:nth-child(3):after, .mainWorkItemBoxTextArea:nth-child(5):before{
+		top: 30px;
+		left: -14px;
+		transform: rotate(-90deg);
+	}
+	.mainWorkItemBoxTextArea, .mainWorkItemBoxTextAreaReverse{
+		width: 77%;
+	}
+	.mainWorkTitle h1{
+		font-size: 27px;
+	}
+	.mainWorkTitle p{
+		font-size: 15px;
+	}
+/* MainWork <===============================================================================>*/
+
+/* Main Numbers <============================================================================>*/
+	.mainNumbersBox{
+		font-size: 11px;
+	}
+	.mainNumbersBox i{
+		font-size: 30px;
+	}
+	.mainNumbersNum{
+		font-size: 30px;
+	}
+/* Main Numbers <============================================================================>*/
+
+/* Portfolio<============================================================================>*/
+	.filter-container{
+		width: 75% !important;
+	}
+/* Portfolio<============================================================================>*/
+
+/* Pricing <============================================================================> */
+	.mainPricingBoxTitle {
+		padding: 20px 70px;
+	}
+/* Pricing <============================================================================> */
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+	.mainPricingBox:hover{
+		transform: scale(1.2)
+	}
+}
+
